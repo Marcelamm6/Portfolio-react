@@ -1,0 +1,27 @@
+.nav{
+  color: #212529;
+  background-color: #A9B3DB;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+}
+
+.name{
+  font-size: 2rem;
+}
+
+.nav_icon{
+  padding: 0 0.5rem;
+  height: 2.4rem;
+  cursor: pointer;
+  
+}
+
+
+/* FIXME:
+.nav_icon:hover, 
+.nav_icon:active{
+  fill: aliceblue; 
+} */
