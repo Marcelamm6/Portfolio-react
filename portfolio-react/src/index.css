@@ -6,15 +6,11 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {
   font-family: 'Rubik', sans-serif;
-  /* background-color: #f1f3f5; */
-  background-image: url(tempBackground.png);
-  background-size: cover;
-  width: 100%;
-
-  overflow-x: hidden;
+ 
+  /* overflow-x: hidden; */
 }

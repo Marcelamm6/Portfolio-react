@@ -1,3 +1,9 @@
+.fundo{
+  background-image: url(tempBackground.png);
+  background-size: cover;
+  height: 100vh;
+}
+
 .nav{
   color: #212529;
   background-color: #A9B3DB;
@@ -6,6 +12,8 @@
   justify-content: space-between;
   padding: 1rem;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+
+  position: relative;
 }
 
 .name{
@@ -25,3 +33,4 @@
 .nav_icon:active{
   fill: aliceblue; 
 } */
+
