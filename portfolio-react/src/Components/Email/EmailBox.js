@@ -5,7 +5,7 @@ import styles from './EmailBox.module.css'
 const SendEmail = props => {
 
   return (
-    <div>
+    <React.Fragment>
       <div className={styles.backdrop} onClick={props.onCloseBtn}></div>
     <div className={styles.email_box}>
       <div className={styles.text_x}>
@@ -18,7 +18,7 @@ const SendEmail = props => {
       <textarea className={styles.message_input}>{props.mensagem}</textarea>
       <button className={styles.btn_position}>Enviar</button>
     </div>
-    </div>
+    </React.Fragment>
   )
 }
 
